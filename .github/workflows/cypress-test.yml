@@ -26,4 +26,5 @@ jobs:
       - name: Run Cypress Tests
         uses: cypress-io/github-action@v2
         with:
-          start: npm run cypress:run
+          browser: chrome
+          headless: true
